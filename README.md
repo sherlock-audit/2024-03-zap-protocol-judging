@@ -805,7 +805,9 @@ Issue resolved: Moved the updations above the transfers. Also, added a reentranc
 
 **sherlock-admin4**
 
-The protocol team fixed this issue in PR/commit https://github.com/Lithium-Ventures/zap-contracts-labs/pull/2.
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/Lithium-Ventures/zap-contracts-labs/pull/2
+
 
 **Evert0x**
 
@@ -914,6 +916,10 @@ Escalations have been resolved successfully!
 Escalation status:
 - [midori-fuse](https://github.com/sherlock-audit/2024-03-zap-protocol-judging/issues/157/#issuecomment-2025184779): accepted
 
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue M-1: Vesting contract cannot work with ETH, although it's supposed to. 
 
 Source: https://github.com/sherlock-audit/2024-03-zap-protocol-judging/issues/54 
@@ -1000,7 +1006,13 @@ Removed ETH functionality from the contract.
 
 **sherlock-admin4**
 
-The protocol team fixed this issue in PR/commit https://github.com/Lithium-Ventures/zap-contracts-labs/pull/5.
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/Lithium-Ventures/zap-contracts-labs/pull/5
+
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue M-2: Blocklisted investors can still claim USDC in `TokenSale.sol` 
 
@@ -1151,7 +1163,9 @@ Further more the code already contains a function to blacklist users i.e [addToB
 
 **sherlock-admin4**
 
-The protocol team fixed this issue in PR/commit https://github.com/Lithium-Ventures/zap-contracts-labs/pull/3.
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/Lithium-Ventures/zap-contracts-labs/pull/3
+
 
 **Hash01011122**
 
@@ -1238,6 +1252,10 @@ Escalations have been resolved successfully!
 
 Escalation status:
 - [Coareal](https://github.com/sherlock-audit/2024-03-zap-protocol-judging/issues/82/#issuecomment-2025929501): rejected
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue M-3: Max allocations can be bypassed with multiple addresses because of guaranteed allocations 
 
@@ -1326,7 +1344,9 @@ The function is operating as designed. If you believe the issue warrants further
 
 **sherlock-admin4**
 
-The protocol team fixed this issue in PR/commit https://github.com/Lithium-Ventures/zap-contracts-labs/pull/1.
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/Lithium-Ventures/zap-contracts-labs/pull/1
+
 
 **ZdravkoHr**
 
@@ -1580,4 +1600,8 @@ Escalations have been resolved successfully!
 
 Escalation status:
 - [ZdravkoHr](https://github.com/sherlock-audit/2024-03-zap-protocol-judging/issues/152/#issuecomment-2025551345): accepted
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
